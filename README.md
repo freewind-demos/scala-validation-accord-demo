@@ -1,4 +1,4 @@
-Mill Base Project Demo
+Accord Demo
 ======================
 
 Install mill:
@@ -18,3 +18,13 @@ Generate IDEA project:
 ```
 mill.scalalib.GenIdeaModule/idea
 ```
+
+Note
+-----
+
+The `personValidator` can't be put in `Hello` object, otherwise there will be an `NullPointerException` when running the tests.
+
+Resources
+---------
+
+- [Accord](https://wix.github.io/accord/)
